@@ -24,6 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
+
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
@@ -48,6 +49,8 @@ table {
 }
 
 /* Set every element's box-sizing to border-box */
+
+
 * {
     box-sizing: border-box;
 }
@@ -63,4 +66,173 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
+
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+body {
+    max-width: 880px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: transparent;
+    overflow: hidden;
+}
+
+
+header nav {
+		display: flex;
+        justify-content: space-around;
+        position: fixed;
+        background-color: azure;
+        overflow-x:hidden;
+        width: 70%;
+        padding: 0vh 0vw 0vh 1vw;
+        
+	}
+	
+header .nav a {
+	display: flex;
+    justify-content: space-around;
+    color: gray; 
+    text-align: center;
+    padding: 14px 0px;
+    text-decoration: none;
+	font-size: 14px;
+	margin: 0vh 0vw 0vh 5vw;
+}
+
+header nav a:hover {
+	color: aquamarine;
+}
+
+header .logo {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.container-header {
+    display: inline-block;
+    margin: 3vh 0vw 5vh 18vw;
+    border-width: thin;
+    text-align: center;
+
+}
+
+.iod {
+    margin: 5vh auto;
+}
+.iod p {
+  
+    text-align: center;
+    margin: -1.9vh;
+    padding: 0;
+    font-size: 6.5vh;
+    
+  }
+.getstarted {
+    border: solid;
+    
+    margin: 1vh 6vw 1vh 6vw;
+    font-size: 1.7vh;
+}
+
+.container-header2 {
+    display: inline-block;
+    float: right;
+    width: 3vh;
+    margin: 3vh 18vw 3vh 0vw;
+  
+}
+
+.container-header2 img {
+	margin: auto auto;
+}
+
+.entireAd {
+    position: center;
+    margin: -3em
+}
+
+.s1  {
+    float:left;
+    width: 350px;
+    margin: 0vh 0vw 0vh 12vw;
+    
+}
+
+.s2  {
+    float:right;
+    width: 350px;
+    margin: 0vh 20vw 0vh 0vw;
+    
+}
+
+
+.s1 .texts1 {
+    
+    
+
+}
+
+.s1 .texts2 {
+  
+}
+
+.img-mid  {
+	margin: 14em;
+	align:center;
+
+}
+
+.s3 {
+    display:inline-block;
+    float:left;
+    position:relative;
+    width: 250px;
+    padding: 0vh 0vw 0vh 15vw;
+
+}
+
+.s4 {
+    display: inline-block;
+    position: relative;
+    float: center;
+    width: 250px;
+    margin: 0vh 0vw 0vh 0vw;
+
+}
+
+.s5 {
+    display: inline-block;
+    position: ;
+    float: right;
+    width: 250px;
+    padding: 0vh 20vw 0vh 0vw;
+
+}
+
+
+
+hr {
+    display:inline-block;
+    width: 75%;
+    align: center;
+    margin: 7vh 0vw 0vh 10vw;
+    display: inline-block;
+    
+}
+
+h5 {
+    text-align: center;
+}
+
+.footer { 
+    margin: 0vh 0vw 0vh 10vw;
+}
+
+.footer p {
+    margin: -16px 0px 0px 0px;
+}
